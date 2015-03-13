@@ -1,7 +1,10 @@
 'use strict';
 
 angular.module('levelapp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope, apps) {
+
+    $scope.apps = apps.data.results;
+
     $scope.awesomeThings = [
       {
         'title': 'AngularJS',
@@ -62,3 +65,22 @@ angular.module('levelapp')
       awesomeThing.rank = Math.random();
     });
   });
+
+/*
+MainCtrl.resolve = {
+  apps: function($q, $http) {
+    var deferred = $q.defer();
+    var url = 'https://itunes.apple.com/lookup/?id=861014899&callback=JSON_CALLBACK';
+    $http.jsonp(url)
+      .success(function(data, status, headers, config) {
+        if(data.resultCount == 1) {
+          deferred.resolve(data.results);
+          //$scope.apps.push(data.results[0]);
+        }
+      })
+      .error(function(data, status, headers, config){
+        deferred.reject();
+      });
+    return deferred.promise;
+  }
+};*/

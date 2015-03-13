@@ -1,6 +1,8 @@
 {
   "name": "levelapp",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "buss-it.de website",
+  "repository": "https://github.com/schurik/LevelApp",
   "dependencies": {},
   "devDependencies": {
     "gulp": "~3.8.10",

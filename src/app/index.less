@@ -23,14 +23,10 @@ html {
   }
 }
 
-md-toolbar.md-default-theme {
-  background-color: black;
-}
-
 section.jumbotron {
   margin-bottom: 30px;
   padding: 1px 30px;
-  background-color: #5aadbb;
+  background-color: #FFA000;
   text-align: center;
 
   color: white;
@@ -44,14 +40,26 @@ section.jumbotron {
   display: flex;
   flex-flow: row wrap;
 
+
   md-card {
     width: 30%;
-
+    padding: 10px;
+    height: 300px;
     img.pull-right {
       float: right;
       width: 50px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
     }
   }
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
 }
 // injector
 // endinjector

@@ -1,0 +1,70 @@
+{
+  "resultCount": 1,
+  "results": [
+    {
+      "kind": "software",
+      "features": [],
+      "supportedDevices": [
+        "iPadFourthGen4G",
+        "iPadMini",
+        "iPad2Wifi",
+        "iPadMini4G",
+        "iPadFourthGen",
+        "iPadThirdGen",
+        "iPadThirdGen4G",
+        "iPad23G"
+      ],
+      "advisories": [],
+      "isGameCenterEnabled": false,
+      "artistViewUrl": "https://itunes.apple.com/us/artist/alexander-buss/id861014902?uo=4",
+      "artworkUrl60": "http://a1118.phobos.apple.com/us/r30/Purple4/v4/a1/aa/c2/a1aac23e-7518-ab42-0f90-51508457f0d6/AppIcon76x76_ipad.png",
+      "screenshotUrls": [],
+      "ipadScreenshotUrls": [
+        "http://a5.mzstatic.com/us/r30/Purple4/v4/1b/c7/77/1bc7772b-c7e9-6976-a855-adc3d1e5e23a/screen480x480.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple4/v4/48/71/84/48718421-9268-f7cc-901b-03353656de9b/screen480x480.jpeg",
+        "http://a2.mzstatic.com/us/r30/Purple1/v4/c6/e8/fd/c6e8fd42-ebd7-96f5-477a-ed93cc0145c7/screen480x480.jpeg",
+        "http://a3.mzstatic.com/us/r30/Purple3/v4/c7/ab/a9/c7aba976-27ee-1270-23a4-83bd9c313e87/screen480x480.jpeg",
+        "http://a4.mzstatic.com/us/r30/Purple4/v4/d2/18/ee/d218ee80-9fb4-4dae-1f69-d9d608dd8daa/screen480x480.jpeg"
+      ],
+      "artworkUrl512": "http://a97.phobos.apple.com/us/r30/Purple4/v4/ec/93/9f/ec939f0e-7848-7794-48e6-51e3ee4071bb/mzl.zmwnhzoj.png",
+      "artistId": 861014902,
+      "artistName": "Alexander Buss",
+      "genres": [
+        "Games",
+        "Board",
+        "Strategy"
+      ],
+      "price": 0.00,
+      "version": "1.1",
+      "description": "This game played already the citizens of the 19th century. Discover with this app the synergy of a traditional game concept combined with a modern design! This game requires your full concentration. Defeat your opponent using your powers of deduction. The player with the better strategy wins! Try it out and show your friends that you are the better strategist!",
+      "currency": "USD",
+      "genreIds": [
+        "6014",
+        "7004",
+        "7017"
+      ],
+      "releaseDate": "2014-06-29T03:45:03Z",
+      "sellerName": "Alexander Buss",
+      "bundleId": "com.abit.tonkin.Tonkin",
+      "trackId": 861014899,
+      "trackName": "Tonkin",
+      "primaryGenreName": "Games",
+      "primaryGenreId": 6014,
+      "releaseNotes": "- Social networks: share with your friends, whom you have just defeated in Tonkin! \n- Tonkin App review: after a few successful rounds, you'll be asked if you want to review and recommend Tonkin. \n- Missing translation: English translation of the game manual. \n- Minor bug fixes.",
+      "minimumOsVersion": "7.0",
+      "wrapperType": "software",
+      "formattedPrice": "Free",
+      "trackCensoredName": "Tonkin",
+      "trackViewUrl": "https://itunes.apple.com/us/app/tonkin/id861014899?mt=8&uo=4",
+      "contentAdvisoryRating": "4+",
+      "artworkUrl100": "http://a97.phobos.apple.com/us/r30/Purple4/v4/ec/93/9f/ec939f0e-7848-7794-48e6-51e3ee4071bb/mzl.zmwnhzoj.png",
+      "languageCodesISO2A": [
+        "EN",
+        "DE"
+      ],
+      "fileSizeBytes": "31336825",
+      "sellerUrl": "http://buss-it.de/apps/tonkin",
+      "trackContentRating": "4+"
+    }
+  ]
+}

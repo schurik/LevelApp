@@ -1,35 +1,48 @@
 <div layout="vertical" layout-fill>
+  <md-content md-theme="myTheme">
+    <header ng-include="'components/navbar/navbar.html'"></header>
 
-  <header ng-include="'components/navbar/navbar.html'"></header>
-
-  <md-content>
     <section class="jumbotron">
-      <h1>'Allo, 'Allo!</h1>
+      <h1>levelApp</h1>
       <p class="lead">
-        <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-        Always a pleasure scaffolding your apps.
+        levelApp your device with this beautyfull apps!
       </p>
-      <p><a class="btn" ng-href="#">Splendid!</a></p>
+
+      <p class="lead">
+        With ♥ by AB
+      </p>
+
     </section>
 
     <div class="techs" layout-align="center">
-      <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
+      <md-card ng-repeat="app in apps">
         <div class="thumbnail">
-          <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+          <img class="pull-right" ng-src="{{ app.artworkUrl60 }}">
           <div class="caption">
-            <h3>{{awesomeThing.title}}</h3>
-            <p>{{awesomeThing.description}}</p>
-            <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
+            <h3>{{app.trackName}}</h3>
+            <p>{{app.description}}</p>
           </div>
         </div>
       </md-card>
     </div>
-  </md-content>
 
-  <footer>
-    <md-toolbar layout="row" layout-align="center center">
-      <p>With ♥ from <a href="https://twitter.com/Swiip">@Swiip</a></p>
-    </md-toolbar>
-  </footer>
+    <!--
+    <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
+      <div class="thumbnail">
+        <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+        <div class="caption">
+          <h3>{{awesomeThing.title}}</h3>
+          <p>{{awesomeThing.description}}</p>
+          <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
+        </div>
+      </div>
+    </md-card>
+    -->
+    <footer>
+      <md-toolbar layout="row" layout-align="center center">
+        <p>© 2015 A.B.   |  <a href="mailto:feedback@buss-it.de?subject=Feedback">Contact</a> </p>
+      </md-toolbar>
+    </footer>
+  </md-content>
 
 </div>
